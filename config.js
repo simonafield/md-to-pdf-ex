@@ -11,8 +11,11 @@ const renderer = {
 
 module.exports = {
     marked_extensions: [{ renderer }],
+    body_class: ['markdown-body'],
     stylesheet: [
+        'https://cdn.jsdelivr.net/npm/github-markdown-css@5.8.1/github-markdown.min.css',
         'https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css',
+        path.join(__dirname, 'styles/markdown.css'),
     ],
     script: [
         { url: 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.min.js' },
