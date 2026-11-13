@@ -1,6 +1,8 @@
 # Using Mermaid-js from md-to-pdf
-https://github.com/simonhaenisch/md-to-pdf
-https://mermaid.js.org/
+
+- Based on this [Gist](https://gist.github.com/danishcake/d045c867594d6be175cb394995c90e2c).
+- https://github.com/simonhaenisch/md-to-pdf
+- https://mermaid.js.org/
 
 # A markdown file with a Mermaid diagram
 
